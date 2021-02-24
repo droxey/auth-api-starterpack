@@ -36,7 +36,7 @@ app.use(checkAuth);
 
 
 app.listen(3000, () => {
-    console.log('API listening on port localhost:3000!');
+    console.log('API listening on port http://localhost:3000!');
   });
 
 module.exports = app;
